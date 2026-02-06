@@ -81,10 +81,54 @@ This repository demonstrates practical solutions to these challenges through two
 
 ---
 
+## 📌 Assignment 3 – Stemming & Lemmatization
+
+**Folder:** `Assignment-3-STEMMING_LEMMATIZATION/`
+
+### 🔹 What This Assignment Covers
+- Implementation of **Porter Stemmer** and **Lancaster Stemmer**
+- Comparison of stemming outputs
+- Lemmatization using:
+  - **WordNet Lemmatizer**
+  - **spaCy Lemmatizer**
+- Application of stemming and lemmatization on a large text dataset
+- Comparison of word counts before and after processing
+- Visualization of vocabulary reduction
+
+### 🔹 Key Learnings
+- Difference between stemming and lemmatization
+- Aggressive vs conservative word normalization
+- Importance of context in lemmatization
+- Impact of normalization on vocabulary size in NLP tasks
+
+---
+
 ## 🚀 Conclusion
 
 This repository reflects my journey in understanding the **core building blocks of Natural Language Processing**, focusing on practical implementation rather than black-box usage.  
 These assignments strengthened my ability to work with real-world text data and prepared a solid foundation for advanced NLP and AI/ML applications.
+
+---
+
+## 🧠 Overall Key Takeaways
+
+- Text preprocessing is a critical step in NLP systems
+- Tokenization becomes complex in real-world text
+- Statistical language models rely on probability, not meaning
+- Regex is effective for structured pattern extraction
+- Stemming and lemmatization help reduce vocabulary size
+- Edit distance is fundamental for text similarity and correction tasks
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- Python
+- NLTK
+- spaCy
+- Regular Expressions
+- Dynamic Programming
+- Google Colab
 
 ---
 
@@ -113,6 +157,20 @@ NLP-Foundations
 │   ├── regex_tokenization.ipynb
 │   ├── edit_distance.ipynb
 │   └── README.md
-│
+|
+├── Assignment-3-STEMMING_LEMMATIZATION/
+│ ├── stemming.ipynb
+│ ├── lemmatization.ipynb
+│ ├── large_text_processing.ipynb
+│ └── README.md
+|
 ├── requirements.txt
 └── README.md
+
+---
+---
+
+## 🚀 Conclusion
+
+This repository represents my foundational work in Natural Language Processing, focusing on **practical implementations and core NLP concepts**.  
+The assignments collectively strengthened my understanding of text preprocessing, normalization, language modeling, and similarity measurement, forming a solid base for advanced NLP and AI/ML applications.
