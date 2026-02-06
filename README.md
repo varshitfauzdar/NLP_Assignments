@@ -71,15 +71,6 @@ This repository demonstrates practical solutions to these challenges through two
 
 ---
 
-## 🧠 Key Learnings from This Repository
-
-- NLP preprocessing is critical for building reliable text-based systems
-- Statistical language models rely on probability, not semantic understanding
-- Regex is powerful for structured pattern extraction but lacks contextual understanding
-- Edit distance is a foundational technique used in spell checking and text similarity
-- Clean data representation improves downstream NLP tasks
-
----
 
 ## 📌 Assignment 3 – Stemming & Lemmatization
 
@@ -174,3 +165,4 @@ NLP-Foundations
 
 This repository represents my foundational work in Natural Language Processing, focusing on **practical implementations and core NLP concepts**.  
 The assignments collectively strengthened my understanding of text preprocessing, normalization, language modeling, and similarity measurement, forming a solid base for advanced NLP and AI/ML applications.
+
