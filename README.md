@@ -1,118 +1,113 @@
-﻿# NLP Foundations – Practical Assignments
-
+# NLP Foundations – Practical Assignments
 
 This repository contains hands-on Natural Language Processing (NLP) assignments implemented as part of my academic coursework.  
-The focus of this repository is to build **strong foundational understanding of text processing, tokenization challenges, statistical language modeling, and string similarity algorithms** using Python.
+The primary objective of this repository is to build a **strong foundational understanding of text preprocessing, language modeling, normalization techniques, and syntactic analysis** using Python.
+
+Each assignment focuses on understanding core NLP concepts through practical implementation.
 
 ---
 
 ## 📌 Repository Overview
 
-Natural Language Processing involves dealing with unstructured text data, which introduces challenges such as handling special symbols, extracting meaningful patterns, and understanding word relationships.  
-This repository demonstrates practical solutions to these challenges through two structured assignments.
+Natural Language Processing involves working with unstructured text data, which introduces challenges such as:
+
+- Handling noisy and irregular text
+- Extracting meaningful linguistic patterns
+- Modeling word relationships probabilistically
+- Measuring similarity between textual inputs
+- Understanding grammatical structure
+
+This repository demonstrates structured solutions to these challenges through progressively designed assignments.
 
 ---
 
-## 📂 Assignment 1 – Tokenization & Language Modeling
+# 📂 Assignment 1 – Tokenization & N-Gram Language Modeling
 
-### 🔹 What Was Implemented
-- Tokenization of text using **NLTK**
-- Part-of-Speech (POS) tagging using **spaCy**
+### 🔹 Implementations
+- Text tokenization using **NLTK**
+- Part-of-Speech (PoS) tagging using **spaCy**
 - Text cleaning (lowercasing and punctuation removal)
-- Collection of a large text corpus (10,000+ words)
 - Construction of:
   - **Unigram Language Model**
   - **Bigram Language Model**
-- Sentence generation using probabilistic models
+- Sentence generation using probabilistic N-gram models
 
-### 🔹 Concepts Learned
-- How raw text is converted into tokens
-- Importance of preprocessing in NLP pipelines
-- Difference between unigram and bigram models
+### 🔹 Concepts Strengthened
+- Text preprocessing pipelines
 - Conditional probability for next-word prediction
-- Limitations of statistical language models
-
-### 🔹 Tools & Technologies Used
-- Python
-- NLTK
-- spaCy
-- TextBlob
-- Google Colab
+- Statistical language modeling
+- Limitations of N-gram models
 
 ---
 
-## 📂 Assignment 2 – Tokenization Challenges & Edit Distance
+# 📂 Assignment 2 – Tokenization Challenges & Edit Distance
 
-### 🔹 What Was Implemented
-- Extraction of complex textual elements using **Regular Expressions**:
-  - URLs
-  - Email IDs
-  - Hashtags
-  - Mentions
-  - Numbers
-  - Punctuation marks
-  - Indian PAN numbers
-  - Indian mobile numbers
-  - Capitalized words
-- Text normalization by removing repetitive characters
+### 🔹 Implementations
+- Extraction of structured patterns using **Regular Expressions**
+- Handling URLs, emails, hashtags, mentions, PAN numbers, mobile numbers
+- Text normalization (repetitive character removal)
 - Implementation of **Edit Distance (Levenshtein Distance)** using Dynamic Programming
 
-### 🔹 Concepts Learned
-- Real-world tokenization challenges beyond simple word splitting
-- Use of regex for pattern-based text extraction
-- String similarity measurement using edit distance
-- Role of dynamic programming in NLP algorithms
-
-### 🔹 Tools & Technologies Used
-- Python
-- Regular Expressions (re module)
-- Dynamic Programming
-- Google Colab
+### 🔹 Concepts Strengthened
+- Real-world tokenization challenges
+- Pattern-based text extraction
+- String similarity measurement
+- Application of dynamic programming in NLP
 
 ---
 
+# 📂 Assignment 3 – Stemming & Lemmatization
 
-## 📌 Assignment 3 – Stemming & Lemmatization
-
-**Folder:** `Assignment-3-STEMMING_LEMMATIZATION/`
-
-### 🔹 What This Assignment Covers
-- Implementation of **Porter Stemmer** and **Lancaster Stemmer**
-- Comparison of stemming outputs
+### 🔹 Implementations
+- Stemming using:
+  - **Porter Stemmer**
+  - **Lancaster Stemmer**
 - Lemmatization using:
   - **WordNet Lemmatizer**
   - **spaCy Lemmatizer**
-- Application of stemming and lemmatization on a large text dataset
-- Comparison of word counts before and after processing
-- Visualization of vocabulary reduction
+- Vocabulary size comparison before and after normalization
+- Visualization of word reduction impact
 
-### 🔹 Key Learnings
-- Difference between stemming and lemmatization
-- Aggressive vs conservative word normalization
-- Importance of context in lemmatization
-- Impact of normalization on vocabulary size in NLP tasks
-
----
-
-## 🚀 Conclusion
-
-This repository reflects my journey in understanding the **core building blocks of Natural Language Processing**, focusing on practical implementation rather than black-box usage.  
-These assignments strengthened my ability to work with real-world text data and prepared a solid foundation for advanced NLP and AI/ML applications.
+### 🔹 Concepts Strengthened
+- Word normalization techniques
+- Aggressive vs conservative stemming
+- Context-aware lemmatization
+- Vocabulary reduction in NLP pipelines
 
 ---
 
-## 🧠 Overall Key Takeaways
+# 📂 Assignment 4 – Part-of-Speech (PoS) Tagging
 
-- Text preprocessing is a critical step in NLP systems
-- Tokenization becomes complex in real-world text
-- Statistical language models rely on probability, not meaning
-- Regex is effective for structured pattern extraction
-- Stemming and lemmatization help reduce vocabulary size
-- Edit distance is fundamental for text similarity and correction tasks
+### 🔹 Problem Statement
+Implement Part-of-Speech tagging to assign grammatical categories (noun, verb, adjective, etc.) to each word in a sentence.
+
+### 🔹 Implementations
+- Sentence tokenization
+- Word tokenization
+- PoS tagging using **NLTK**
+- PoS tagging using **spaCy**
+- Understanding Penn Treebank tag set
+- Comparison between tagging approaches
+
+### 🔹 Concepts Strengthened
+- Syntactic structure of language
+- Role of PoS tagging in NLP pipelines
+- Differences between rule-based and statistical tagging
+- Importance of grammar in downstream tasks (NER, parsing, sentiment analysis)
 
 ---
 
-## 🛠 Tools & Technologies Used
+# 🧠 Overall Key Takeaways
+
+- Text preprocessing is foundational to NLP systems
+- Statistical models rely on probability rather than meaning
+- Regex enables structured information extraction
+- Word normalization reduces vocabulary complexity
+- PoS tagging provides syntactic structure to text data
+
+---
+
+# 🛠 Technologies Used
 
 - Python
 - NLTK
@@ -123,19 +118,7 @@ These assignments strengthened my ability to work with real-world text data and 
 
 ---
 
-## 🛠 How to Run the Code
-
-- All notebooks are implemented using **Google Colab**
-- Required libraries are listed in `requirements.txt`
-- Each notebook is self-contained and can be executed sequentially
-
-
-
-
-
-
-
-
+# 📦 Repository Structure
 
 NLP-Foundations 
 │
@@ -155,10 +138,31 @@ NLP-Foundations
 │ ├── large_text_processing.ipynb
 │ └── README.md
 |
+├── Assignment-4-RNN_CLASSIFICATION/
+│ ├── lstm_model.ipynb
+│ ├── gru_model.ipynb
+│ └── README.md
+│
 ├── requirements.txt
 └── README.md
 
 ---
+## 🛠 How to Run the Code
+
+- All notebooks are implemented using **Google Colab**
+- Required libraries are listed in `requirements.txt`
+- Each notebook is self-contained and can be executed sequentially
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 🚀 ***THANKYOU***
+
